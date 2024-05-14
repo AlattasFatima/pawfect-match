@@ -3,25 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pawfect Paw</title>
+    <title>Pawfect Match </title>
 </head>
 <body>
-    <nav>
-        <img src="pics/arrow.png" alt="Back Arrow" class="upper">
-        <p>Pawfect Paw</p>
-        <img src="pics/profilePic.png" alt="Profile Picture">
+
+    <!-- UPPER NAV BAR -->
+    <nav class="topNav">
+        <!--<button><img src="pics/arrow.png" alt="Back Arrow" class="upper"></button>-->
+        <p id="title">Pawfect Match</p>
+        <button><img src="pics/profilePic.png" alt="Profile Picture" class="upper"></button>
     </nav>
     
-    
-    
-    
-    
-    <nav>
+    <!-- MIDDLE CONTENT -->
+    <div id="cont">
         <ul>
-            <li>Home</li>
-            <li>Prudects</li>
+            <a href=""><button><li>Adopt me </li></button></a>
+            <a href=""><button><li>Put your pet for adoption</li></button></a>
+            <a href="index/petCare.html"><button><li>Pet care advises</li></button></a>
+        </ul>
+    </div>
+
+    <div id="rec">
+        <div id="card">jfhvbjdhfb<img src="pics/pets.png" alt="Kittens" height="00px" width="60px"></div>
+        <p>Recommended</p>
+    </div>
+    
+    <!-- BOTTOM NAV BAR-->
+    <nav class="bottomNav">
+        <ul>
+            <li><button><link rel="stylesheet" href="index.html">home</button></li>
+            <li><button><img src="pics/store.png" alt="Product store"></button></li>
+            <li><button><img src="pics/cart.png" alt="Shooping cart"></button></li>
+            <li><button><img src="pics/profilePic.png" alt="Profile picture"></button></li>
         </ul>
     </nav>
+
+
 
     <style>
         body{
@@ -30,9 +47,20 @@
 
         nav{
             background-color: #E9C8C8d9;
+            align-content: center;
+            
         }
         
-        p{
+        #card{
+            background-color: white;
+            border-radius: 50px;
+        }
+
+        img.card{
+            height: 1\00px;
+        }
+
+        #title{
             font-size: 75px;
             display: inline;
             padding: 50px;
@@ -47,10 +75,25 @@
             display: inline-table;
             font-size: 20px;
         }
-        .upper:hover{
+
+        li{
+            display: inline-table;
+            font-size: 20px;
+            padding-left: 50px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        button{
+            border-radius: 40px;
+            border-color: #E9C8C8d9;
+        }
+
+        button:hover{
             cursor: pointer;
         }
 
+       
 
     </style>
 
