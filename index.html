@@ -14,18 +14,49 @@
     </nav>
     
     <!-- MIDDLE CONTENT -->
-    <div id="cont">
+    <div id="middle">
+
+        <div class="card">
+            <p style="color: #EC0793;">Adopt a pet<br>Save a life!</p>
+            <img src="/pics/pets.png" alt="">
+        </div>
+<br>
+
         <ul>
-            <button><li>Adopt me </li></button>
-            <a href="index/putForAdoption.html"><button><li>Put your pet for adoption</li></button></a>
-            <a href="index/petCare.html"><button><li>Pet care advises</li></button></a>
+            <button><li><img src="/pics/adopt.png" alt=""></li></button>
+            <a href="index/putForAdoption.html"><button><li><img src="/pics/care.png" alt=""></li></button></a>
+            <a href="index/petCare.html"><button><li><img src="/pics/add.png" alt=""></li></button></a>
         </ul>
+
+<br>
+
+        <div class="card">
+            <img src="/pics/cat.jpg" alt="">
+            <p style="font-size: large;">Kitty</p>
+            <p style="font-size: small;">📍 Jeddah</p>
+            <p style="font-size: medium;">Female | 1 year</p>
+        </div>
+        
+        <br>
+        
+        <div class="card">
+            <img src="/pics/whiskas.jpg" alt="">
+            <p style="font-size: large;">Whiskas</p>
+            <p style="font-size: medium;">Whiskas wet cat food offers healthy and delicious meals for your feline companion.<br>Discover a range of flavors.</p>
+        </div>
+        
+        <br>
+        
+        <div class="card">
+            <img src="/pics/toy.jpg" alt="">
+            <p style="font-size: large;">Ball toy</p>
+            <p style="font-size: medium;">Balls are attractive to many cats. Their movement along the floor mimics the movement of scampering mice or other prey animals, which will entice cats to chase.</p>
+        </div>
+
+        <br>
     </div>
 
-    <div id="rec">
-        <div id="card">jfhvbjdhfb<img src="pics/pets.png" alt="Kittens" height="00px" width="60px"></div>
-        <p>Recommended</p>
-    </div>
+
     
     <!-- BOTTOM NAV BAR-->
     <nav class="bottomNav">
@@ -47,16 +78,27 @@
         nav{
             background-color: #E9C8C8d9;
             align-content: center;
-            
+            width: auto;
         }
         
-        #card{
+        .card{
             background-color: white;
             border-radius: 50px;
+            display: flex;
+            align-items: center;
+            padding: 20px;
         }
 
-        img.card{
+        .card img{
             height: 100px;
+            width: auto;
+            margin-right: 120px;
+        }
+
+        p{
+            margin: 10px;
+            padding: 10px;
+            font-size: xx-large;
         }
 
         #title{
