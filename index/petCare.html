@@ -31,23 +31,39 @@ div.desc {
     <nav>
             <p> Pet care</p>
         
-    </nav>  
+    </nav>
+
+  <div>
 
     <h1>Choose pet</h1>
-<!-- link the pet care information page-->
+
     <div class="gallery">
-        <a target="_blank" href="">
-          <img src="dog.jpg" alt="dog" width="600" height="400">
-        </a>
+        <img src="../pics/dog.jpg" alt="dog" width="600" height="400">
         <div class="desc">dog</div>
       </div>
+
 <!-- link the pet care information page-->
       <div class="gallery">
-        <a target="_blank" href="">
-          <img src="bird.jpg" alt="bird" width="600" height="400">
+
+        <a href="petCare2.html">
+          <img src="../pics/bird.jpg" alt="bird" width="600" height="400">
         </a>
-        <div class="desc">bird</div>
+
+        <div class="desc">bird</div> 
+        <br>
+        
       </div>
+  </div>
+    
+    <!-- BOTTOM NAV BAR-->
+    <nav class="bottomNav">
+      <a href="../index.html"><button><img src="/pics/home.png" class="icons" height="100px"><link rel="stylesheet" href="index.html"></button></a></li>
+      <button><img src="../pics/store.png" class="icons"  height="100px"></button></li>
+      <button><img src="../pics/cart.png" class="icons"  height="100px"></button></li>
+      <a href="/index/signup.html"><button><img src="../pics/profilePic.png" class="icons"  height="100px"></button></a></li>
+    </nav>
+
+
     
     <style>
         body{
@@ -58,6 +74,35 @@ div.desc {
             background-color: #E9C8C8d9;
         }
 
+        .gallery{
+          margin-bottom: 100px;
+        }
+
+        img{
+            height: 50px;
+            display: inline;
+        }
+
+        .bottomNav{
+            display: inline-table;
+            font-size: 20px;
+            padding-left: 50px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        button{
+            border-radius: 40px;
+            border-color: #E9C8C8d9;
+        }
+
+        button:hover{
+            cursor: pointer;
+        }
+
+        .icons{
+          display: inline;
+        }
         
 
     </style>
