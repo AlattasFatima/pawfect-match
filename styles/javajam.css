@@ -1,0 +1,254 @@
+
+
+body {
+    background-color: #ffedf1;
+    color: #221811; /* textcolor*/
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+
+
+.img-containr {
+    text-align: Center;
+    padding-bottom:20px;
+}
+
+
+
+header {
+    background-color: #f8f8f8;
+    color: #db0d8f;
+    background-image: url('logo.jpg');
+    background-repeat: no-repeat;
+    height: 150px;
+    font-size: 1.5em;
+    font-family: 'Brush Script MT', cursive;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    padding-top: 45px;
+    padding-left: 220px;
+    font-size: 3em;
+    font-family: 'Georgia', serif;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+nav {
+    background-color: #E9C8C8d9;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+    nav a {
+        text-decoration: none;
+        font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+        transition: color 0.5s ease;
+    }
+
+        nav a:hover {
+            color: #D2B48C;
+        }
+
+
+
+.cards-categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 5px;
+}
+
+.fancy-title {
+    font-size: 2em;
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    background-color: #E9CEB3;
+    font-size: 4.5em;
+}
+
+
+.category-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-bottom: 20px;
+    background-color: #f8f8f8;
+}
+
+    .category-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .category-card h3 {
+        color: #D2B48C;
+        font-size: 18px;
+    }
+
+    .category-card a {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #D2B48C;
+        text-align: center;
+        cursor: pointer;
+        width: 95%;
+        font-size: 18px;
+    }
+
+        .category-card a:hover {
+            background-color: #555;
+        }
+
+
+
+
+
+/* Footer */
+footer {
+    background-color: #D2B48C;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+    footer ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+        footer ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+            footer ul li a {
+                color: white;
+                text-decoration: none;
+            }
+
+
+    footer a {
+        color: white;
+    }
+
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cards-card {
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+    .cards-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .cards-card h2 {
+        margin: 0;
+        padding: 20px;
+        background-color: #f8f8f8;
+        color: #333;
+    }
+
+    .cards-card p {
+        padding: 0 20px 20px;
+        color: #666;
+    }
+
+    .cards-card a {
+        display: block;
+        padding: 10px 20px;
+        background-color: #D2B48C;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+
+        .cards-card a:hover {
+            background-color: #555;
+        }
+
+.cards {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 20px;
+}
+
+    
+
+    .cards h1 {
+        color: #b81b7b;
+        
+        padding-bottom: 10px;
+    }
+
+    .cards ul, .cards ol {
+        color: #000000;
+        
+        padding-bottom: 10px;
+        
+    }
+
+.carddiv {
+    color: #c4738a;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px
+}
+
+
+
+iframe {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #d1baba;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+    .back-button:hover {
+        background-color: #e9e1e1;
+    }
