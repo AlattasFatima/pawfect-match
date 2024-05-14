@@ -9,16 +9,15 @@
 
     <!-- UPPER NAV BAR -->
     <nav class="topNav">
-        <!--<button><img src="pics/arrow.png" alt="Back Arrow" class="upper"></button>-->
         <p id="title">Pawfect Match</p>
-        <button><img src="pics/profilePic.png" alt="Profile Picture" class="upper"></button>
+        <a href="/index/signup.html"><button><img src="pics/profilePic.png" alt="Profile Picture" class="upper"></button></a>
     </nav>
     
     <!-- MIDDLE CONTENT -->
     <div id="cont">
         <ul>
-            <a href=""><button><li>Adopt me </li></button></a>
-            <a href=""><button><li>Put your pet for adoption</li></button></a>
+            <button><li>Adopt me </li></button>
+            <a href="index/putForAdoption.html"><button><li>Put your pet for adoption</li></button></a>
             <a href="index/petCare.html"><button><li>Pet care advises</li></button></a>
         </ul>
     </div>
@@ -31,10 +30,10 @@
     <!-- BOTTOM NAV BAR-->
     <nav class="bottomNav">
         <ul>
-            <li><button><link rel="stylesheet" href="index.html">home</button></li>
+            <li><a href="index.html"><button><img src="/pics/home.png"><link rel="stylesheet" href="index.html"></button></a></li>
             <li><button><img src="pics/store.png" alt="Product store"></button></li>
             <li><button><img src="pics/cart.png" alt="Shooping cart"></button></li>
-            <li><button><img src="pics/profilePic.png" alt="Profile picture"></button></li>
+            <li><a href="/index/signup.html"><button><img src="pics/profilePic.png" alt="Profile Picture"></button></a></li>
         </ul>
     </nav>
 
@@ -57,7 +56,7 @@
         }
 
         img.card{
-            height: 1\00px;
+            height: 100px;
         }
 
         #title{
@@ -71,7 +70,7 @@
             display: inline;
         }
 
-        .upper{
+        .topNav{
             display: inline-table;
             font-size: 20px;
         }
@@ -92,9 +91,7 @@
         button:hover{
             cursor: pointer;
         }
-
-       
-
+    
     </style>
 
 </body>
